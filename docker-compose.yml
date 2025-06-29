@@ -1,0 +1,22 @@
+services:
+  chroma-server:
+    image: ghcr.io/chroma-core/chroma:latest
+    container_name: chroma-server
+    networks:
+      - kairos-net
+    ports:
+      - "8000:8000"
+
+  python-executor:
+    build: ./python-executor
+    container_name: python-executor
+    networks:
+      - kairos-net
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./python-executor:/app
+
+networks:
+  kairos-net:
+    driver: bridge
