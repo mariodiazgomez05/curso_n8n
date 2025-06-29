@@ -1,5 +1,5 @@
 version: 2
-authtoken: 2zBrkNHmAtxMaiyJYdTDRJ6PT79_7my6aRwSgdn1tqwp2Kq7y  # <-- Sustitúyelo con tu token real
+authtoken: TU_AUTHTOKEN # <-- Sustitúyelo con tu token real
 
 tunnels:
   executor:
