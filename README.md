@@ -1,6 +1,6 @@
 
 # Curso de Automatización n8n con ChromaDB
--DOCUMENTACION COMPLETA EN : https://docs.google.com/document/d/1nXO2xsFmpyarQTAc7zO03lor6SAkpsC1RTc7reXD5WQ/edit?usp=sharing
+- DOCUMENTACION : https://docs.google.com/document/d/1nXO2xsFmpyarQTAc7zO03lor6SAkpsC1RTc7reXD5WQ/edit?usp=sharing
 
 ## Estructura del Proyecto
 
